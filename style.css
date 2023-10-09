@@ -1,21 +1,158 @@
-caption {
-    padding: 10px;
-    font-size: 28px;
-    color: #0077b6;
-    
-  }
+ 
+ 
   th {
-    background-color: #0096c7;
-    color: #03045e;
+    background-color: #006283;
+    color: #ffffff;
     width: 100px;
-  
+    padding: 10px;
+    margin-top: 400px
+
+
   }
 
   td {
-    background-color: #48cae4;
-    color: #023e8a;
+    background-color: #48cae4b2;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
     width: 100px;
- 
+    height: 50px;
+    
+  }
+
+  body{
+
+    padding-left: 0px; 
+    text-align: center; 
+    margin-bottom: 110px ; 
+    margin-top:50px;
+    font-family: sans-serif;
+    background-image: url(images/circle-scatter-haikei\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+  .caption{
+
+   padding-top: 0px;
+   padding-bottom: 10px;
+   color: #ffffff;
+   font-size: 30px;
+   font-weight: 800;
+
+}
   
+ .descripcion{
+
+  padding-top: 0px;
+   padding-bottom: 10px;
+   color: #ffffff;
+   font-size: 30px;
+   font-weight: 800;
+   padding-bottom: 40px;
+
+
+ }
+
+ .radius1{
+
+border-radius: 0px 0px 0px 10px;
+
+ }
+
+ .radius2{
+
+  border-radius: 0px 0px 10px 0px;
+  
+   }
+
+  .radius3{
+
+    border-radius: 10px 0px 0px 0px;
+
+  }
+  
+  .radius4{
+
+    border-radius: 0px 10px 0px 0px;
+
+  }
+
+  .receso{
+
+  font-weight: 700;
+
+  }
+
+
+
+
+  nav{
+
+    
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: -50px;
+    margin-left: 0px;
+    font-size: 20px ;
+    font-weight: 600;
+    }
+    
+    
+    nav .logo{
+    
+        min-width: 250px;
+       font-size: 35px;
+    }
+    
+    nav a{
+    
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    
+    }
+    
+    nav a:hover{
+    
+    color: rgb(0, 0, 0);
+    background-color: #48cae4b2;
+    border-radius: 10px ;
+    }
+
+   
+    
+    nav .desktop{
+    
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 0px 20px;
+    }
+    
+    
+    nav .desktop .primario,
+    nav .desktop .secundario{
+    
+    display: flex;
+    
+    }
+    
+    nav .desktop .secundariomini{
+    
+    display: none;
+    
+    }
+     
+    .table{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+
+    }
+
